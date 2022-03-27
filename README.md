@@ -9,7 +9,9 @@ Using https://learngitbranching.js.org to play&learn must have GIT commands.
 Also learned in this game:
 - GIT push; GIT branch; GIT checkout; GIT commit; GIT Cherry-pick;
 - Learned how to move commits, main, HEAD in branch
+
 Day 3:
 - Learned remove, rebase
+
 Day 4:
 Today im starting Unittest and Pytest course in stepick
