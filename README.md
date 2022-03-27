@@ -15,3 +15,5 @@ Day 3:
 
 Day 4:
 Today im starting Unittest and Pytest course in stepick
+- I learned working with unittest + Selenium
+- Made my first unittest and named it as unittest_first.py (i will upload it to git)
