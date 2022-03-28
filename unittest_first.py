@@ -35,5 +35,5 @@ if __name__ == "__main__":
 	try:
 		unittest.main()
 		sleep(8)
-	except:
+	finally:
 		browser.quit()
