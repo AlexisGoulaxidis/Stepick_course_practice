@@ -17,3 +17,56 @@ Day 4:
 Today im starting Unittest and Pytest course in stepick
 - I learned working with unittest + Selenium
 - Made my first unittest and named it as unittest_first.py (i will upload it to git)
+
+Day 5:
+- I learned Big O Theory
+
+Day 6:
+- I started learning Pytest basics
+
+Day 7:
+
+- I learned Pytest Fixtures
+
+Day 8:
+
+- I started learn IOS and Android QA Engineering basics
+- I learned IOS-devices testing theory
+
+Day 9:
+
+- I learned Charles Proxy for working with IOS devices
+- Also in Charles:
+- Map Local / remote
+- Rewrite Responce-Request
+- Breakpoint
+- No cache / no cookies mode
+- Block list tool
+- Mirror tool
+- Auto Save
+- Load test (Repeat / Advanced repeat)
+- Trottling Network
+
+Day 10:
+
+- I learned how to use Android Studio emulator, basics tools
+
+Day 11:
+
+- I made programm, that can auto create account, run all tests and successful finish over ~80% tests in interactive online Python Academy just using Selenium
+
+Day 12:
+
+- Learned Regex
+
+Day 13:
+
+- I made new features for selenium program (Write procents of succesfull done lessons)
+
+Day 14:
+
+- Learned some information about Special Mobile Checking
+
+Day 15:
+
+- Started reading book about software development when i have free time
