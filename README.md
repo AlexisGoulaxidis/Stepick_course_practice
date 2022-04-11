@@ -63,6 +63,7 @@ Day 13:
 
 - I made new features for selenium program (Write procents of succesfull done lessons)
 
+
 Day 14:
 
 - Learned some information about Special Mobile Checking
@@ -70,3 +71,18 @@ Day 14:
 Day 15:
 
 - Started reading book about software development when i have free time
+
+
+Day 16:
+
+- Today i learned Test-Design theory
+
+Day 17:
+
+- Learned Pytest fixture, marking
+
+Day 18:
+
+- Learned Pytest Parametrize
+- Made conftest file
+
