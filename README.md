@@ -86,3 +86,18 @@ Day 18:
 - Learned Pytest Parametrize
 - Made conftest file
 
+Day 19:
+
+- Learned Pytest crossbrowsing testing with WebBrowserManager
+
+Day 20:
+
+- Learned Get and Post requests
+
+Day 21:
+
+- Learned Pytest Addoption and request.config.getoption, for working in command line
+
+Day 22:
+
+- Learned Webdriver Options and Rerunfailures
