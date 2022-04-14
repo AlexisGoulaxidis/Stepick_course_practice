@@ -13,18 +13,20 @@ from selenium.webdriver.chrome.options import Options
 def pytest_addoption(parser):  #make command for selectd file (name of test)
     parser.addoption('--browser_name', action='store', default=None,
                      help="Choose browser: opera or firefox", choices=('opera', 'firefox'))
-    parser.addoption('--language', action='store', default='en', help='Choose language')
+    parser.addoption('--language', action='store', default='en',
+                     help='Choose language', choices=('en', 'ru', 'fr'))
     
-                     
+         
+
 
 @pytest.fixture #(scope="function") if wanna target on function/class/method
 def browser(request):
-
+	
 	browser_name = request.config.getoption("browser_name")  # Request get param from CMD
-	user_language = request.config.getoption("language") # Request get Language value from CMD
-	#assert language == 'ru' or 'fr' or 'en-gb', '  '#raise pytest.UsageError(f'--language {language} is not correct! Try "ru", "fr", "en-gb"')
+	user_language = request.config.getoption("language")
+	# Request get Language value from CMD
+	assert language == 'ru' or 'fr' or 'en-gb', '--language {language} is not correct! Try "ru", "fr", "en-gb'
 	#starting
-	browser = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 	print('\n Start Browser for test')
 	if browser_name == 'firefox':
 		print('\n Starting Firefox')
@@ -41,7 +43,6 @@ def browser(request):
 		options = Options()
 		options.add_experimental_option('prefs', {'intl.accept_languages': user_language})
 		browser = webdriver.Opera(options=options)
-		browser.get('https://google.com')
 		#Create Pref Options for language in browser in param accept_languages
 	else:
 		raise pytest.UsageError("--browser_name should be opera or firefox")
