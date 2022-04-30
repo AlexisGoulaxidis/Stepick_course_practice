@@ -4,7 +4,6 @@ from selenium.webdriver.support.ui import Select  #for select elements / select_
 from selenium.webdriver.support.ui import WebDriverWait  #check time for waiting elements visability
 from selenium.webdriver.support import expected_conditions as EC # .element_to_be_clickable((By.ID, ""))
 from selenium.webdriver.common.keys import Keys #keyboard keys
-from selenium.webdriver.support import expected_conditions as EC #waiting untill
 from selenium.webdriver.common.action_chains import ActionChains #for keyboard
 from selenium.webdriver.firefox.options import Options
 from time import sleep as sleep
