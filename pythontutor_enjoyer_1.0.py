@@ -11,6 +11,7 @@ from time import sleep as sleep
 from random import randint as rand
 import re
 
+
 prof = webdriver.FirefoxProfile(
   r'/home/kali/.mozilla/firefox/ir7gkide.TestProfile')
 browser = webdriver.Firefox(executable_path='/usr/local/bin/geckodriver', firefox_profile=prof)
